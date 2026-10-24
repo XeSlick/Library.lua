@@ -73,15 +73,15 @@ end
     end
 
     local themes = {
-        preset = {
-            accent = rgb(108, 109, 152),
-            window_outline = rgb(0, 0, 0),
-            inline = rgb(25, 27, 27),
-            background = rgb(17, 19, 19),
-            visible_backgrounds = rgb(20, 23, 22),
-            text_color = rgb(221, 223, 222),
-            glow = rgb(0, 0, 0),
-            deselected = rgb(89, 91, 91),
+    preset = {
+        accent              = Color3.fromRGB(117, 0, 0),
+        window_outline      = Color3.fromRGB(0, 0, 0),
+        inline              = Color3.fromRGB(25, 27, 27),
+        background          = Color3.fromRGB(5, 5, 5),
+        visible_backgrounds = Color3.fromRGB(18, 18, 18),
+        text_color          = Color3.fromRGB(221, 223, 222),
+        glow                = Color3.fromRGB(0, 0, 0),
+        deselected          = Color3.fromRGB(89, 91, 91),
         },
         utility = {},
         gradients = {
